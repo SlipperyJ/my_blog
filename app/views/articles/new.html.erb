@@ -1,0 +1,7 @@
+<h2> Create blog post </h2>
+
+<%= simple_form_for @article do |article| %>
+  <%= article.input :title %>
+  <%= article.input :content %>
+  <%= article.button :submit %>
+<% end %>
